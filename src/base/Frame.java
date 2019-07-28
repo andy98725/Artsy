@@ -17,6 +17,7 @@ public class Frame extends JFrame {
 		// Add drawable component
 		add(new DrawableComponent(target));
 		pack();
+		// Add reset on space
 		// Exit on close
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		// Center
